@@ -17,7 +17,7 @@ zhihu_username:     chen-xue-chen-54
 github_username:    XueChenChen
 douban_username:    people/140216411/
 #twitter_username:  huxpro
-facebook_username:  people/140216411/
+# facebook_username:  people/140216411/
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -91,7 +91,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "豆瓣",
+        href: "https://www.douban.com/people/140216411/"
+    },
+    {
+        title: "gitbook",
+        href: "https://www.gitbook.com/@xuechenchen"
     }
 ]
