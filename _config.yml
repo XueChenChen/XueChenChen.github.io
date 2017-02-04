@@ -3,9 +3,9 @@ title: Hux Blog
 SEOTitle: 黄玄的博客 | Hux Blog
 header-img: img/home-bg.jpg
 email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
-url: "https://huangxuan.me"              # your host, for absolute URL
+description: "知道一个程序猿最痛苦的事是什么吗--抓头发只抓一边!"
+keyword: "陈薛晨, XueChen, Chen, xuechenchen.github, xuechenchen, 今个儿赛太阳, 博客, 个人网站, 互联网, iOS, Swift, Objc"
+url: "https://XueChenChen.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -59,7 +59,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
