@@ -3,7 +3,7 @@ layout:     post
 title:      "GitHub上Swift开源项目! "
 date:       2016-10-15 12:00:00
 author:     "Chen"
-header-img: "img/swift/Swift-free.jpg"
+header-img: "img/swift/Swift-free.png"
 tags:
     - Swift
     - 开源
@@ -374,6 +374,3 @@ tags:
 ### 8. 实用资源
 * [google/material-design-icons](https://github.com/google/material-design-icons) ：对于喜欢 Material Design 风格的同学，这是难得好资源。Google 提供了极为完整的各种图标（包含 iOS 各种精度及 SVG）设计资源。
 * [全唐诗数据库](https://github.com/hxgdzyuyi/tang_poetry)：SQLite 数据库脚本。
-
-
-
