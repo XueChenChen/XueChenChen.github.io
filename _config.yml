@@ -97,5 +97,13 @@ friends: [
     {
         title: "gitbook",
         href: "https://www.gitbook.com/@xuechenchen"
+    },
+    {
+        title: "csdn",
+        href: "https://my.csdn.net/qq_15024937"
+    },
+    {
+        title: "简书",
+        href: "https://www.jianshu.com/u/ad8be2ee91ff"
     }
 ]

@@ -5,7 +5,8 @@ date:       2016-10-10 12:00:00
 author:     "Chen"
 header-img: "img/swift/swift-zhinan.jpg"
 tags:
-    - swift
+    - Swift
+    - 语言指南
 ---
 
 
