@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "GitHub上Swift语言指南! "
-date:       2016-10-10 12:00:00
+date:       2016-10-10 21:00:00
 author:     "Chen"
 header-img: "img/swift/swift-zhinan.jpg"
 tags:
