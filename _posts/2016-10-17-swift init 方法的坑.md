@@ -3,10 +3,10 @@ layout:     post
 title:      "swift中的init坑! "
 date:       2016-10-17 20:00:00
 author:     "Chen"
-header-img: "img/skillTable/skillTable-bg.jpg"
+header-img: "img/init.jpg"
 tags:
     - 语言
-    - swift
+    - Swift
     - init
 ---
 
@@ -28,7 +28,7 @@ Swift 有超级严格的初始化方法。一方面，Swift 强化了 designated
 
 ### 1.why 你重写init时required init?(coder aDecoder: NSCoder)必须写:
 
-  ```objc
+  ```swift
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
@@ -58,7 +58,7 @@ Designated Initializer 指定构造器相当于Objective-C中的`NS_DESIGNATED_I
 
 指定构造器是类的主要构造器, 要在指定构造器中初始化所有的属性, 并且要在调用父类合适的指定构造器.
 example:
-```objc
+```swift
    {
      init()
      init(frame: CGRect)
@@ -71,7 +71,7 @@ example:
 
 *所有的 convenience 初始化方法都必须调用同一个类中的 designated 初始化完成设置，另外 convenience 的初始化方法是不能被子类重写或者是从子类中以 super 的方式被调用的。*
 
-```objc
+```swift
 class ClassA {
     let numA: Int
     init(num: Int) {
