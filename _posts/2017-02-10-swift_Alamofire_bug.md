@@ -57,7 +57,8 @@ and your code ` NSURL(string: URLString.URLString)! `view error  please not `!`
 
 my english not good , hope you can understand
 
-** 我们在开发中因为服务器端给的接口的特殊性,和三方处理不好而头疼,今天我们看看url中特殊字符怎么表示(我也不知道写啥,就写它吧)**
+**我们在开发中因为服务器端给的接口的特殊性,和三方处理不好而头疼,今天我们看看url中特殊字符怎么表示(我也不知道写啥,就写它吧)**
+
 > 上方的bug我直接 "->%22, 同事的 space->%20
 
 
@@ -76,7 +77,7 @@ my english not good , hope you can understand
 
    
 
-** *你可以浏览器里写一下查看http请求头信息中特殊字符的编码* **
+***你可以浏览器里写一下查看http请求头信息中特殊字符的编码***
 
       
    
