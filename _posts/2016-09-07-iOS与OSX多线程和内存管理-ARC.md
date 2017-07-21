@@ -66,11 +66,11 @@ ARC
 ```obj
 NSError**error is NSError* __autoreleaseing *error
 ```
-![对象指针](/assets/屏幕快照 2017-02-16 上午11.53.55.png)
+![对象指针](/img/assets/屏幕快照 2017-02-16 上午11.53.55.png)
 
 
 **赋值给对象指针时,所有权修饰符必须一致**
-![权修饰符](/assets/屏幕快照 2017-02-16 下午12.10.07.png)
+![权修饰符](/img/assets/屏幕快照 2017-02-16 下午12.10.07.png)
 
 **规则ARC有效**
 - 不能使用`retain/release/retainCount/autorelease`
