@@ -65,26 +65,26 @@ tags:
 ### **大概有这么几个回答：**
   1. > Try deleting your .gradle from C:\Users\<username> directory and try again.
 
-    ![对象指针](../img/cordova/cordovaanswer0.png)
+    ![对象指针](./img/cordova/cordovaanswer0.png)
   2. > Open your project gradle.properties file and make changes in heap size.
 
       > XX:MaxPermSize=256m is default value and make it XX:MaxPermSize=1024m
 
       > gradle.properties
 
-      ![one](../img/cordova/one.png)
-      ![two](../img/cordova/two.png)
+      ![one](./img/cordova/one.png)
+      ![two](./img/cordova/two.png)
   3. > C:\Users\Administrator\.gradle change  gradle.properties file content .
 
-  ![对象指针](../img/cordova/userGradle.png)
-  ![对象指针](../img/cordova/three.png)
+  ![对象指针](./img/cordova/userGradle.png)
+  ![对象指针](./img/cordova/three.png)
   4. > I got the solution by adding a new system variable name : _JAVA_OPTIONS and value : -Xmx512M
 
-  ![对象指针](../img/cordova/four.png)
+  ![对象指针](./img/cordova/four.png)
 
 ### 第4个对我起作用了.so:
 
-![对象指针](../img/cordova/cordovaSolve.png)
+![对象指针](./img/cordova/cordovaSolve.png)
 
    
    
