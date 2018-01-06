@@ -49,7 +49,7 @@ Swift 有超级严格的初始化方法。一方面，Swift 强化了 designated
 1. Designated Initializer
 2. Convenience Initializer
 
-Designated Initializer 指定构造器相当于Objective-C中的`NS_DESIGNATED_INITIALIZER`, 而 Convenience Initializer 译为便利构造器.
+Designated Initializer 指定构造器相当于objective_c中的`NS_DESIGNATED_INITIALIZER`, 而 Convenience Initializer 译为便利构造器.
 
 *指定构造器在一个类中必须至少有一个, 而便利构造器的数量没有限制.*
 **Designated:**
