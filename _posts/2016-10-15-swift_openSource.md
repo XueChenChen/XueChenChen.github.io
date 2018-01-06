@@ -149,7 +149,7 @@ tags:
 * [jpsim/PeerKit](https://github.com/jpsim/PeerKit)：基于事件驱动的多端对等连接开源框架。作者提供了该组件使用案例[jpsim/CardsAgainst](https://github.com/jpsim/CardsAgainst)，具体引用代码详见[这里](https://github.com/jpsim/CardsAgainst/blob/master/CardsAgainst/Controllers/ConnectionManager.swift)。
 * [Quick/Nimble](https://github.com/Quick/Nimble)：功能更强于Xcode自带测试框架（XCTest）的测试类库。
 * [venmo/DVR](https://github.com/venmo/DVR)：针对网络请求的测试框架，超实用的工具。且支持 iOS, OSX, watchOS 全平台。
-* [owensd/swift-perf](https://github.com/owensd/swift-perf)：针对 Swift 的性能测试方案。通过抽样场景关键代码与 C 或 objective_c 的比较做为其测试基准。
+* [owensd/swift-perf](https://github.com/owensd/swift-perf)：针对 Swift 的性能测试方案。通过抽样场景关键代码与 C 或 objc 的比较做为其测试基准。
 * [nghialv/MaterialKit](https://github.com/nghialv/MaterialKit)：Swift 版 Google Material Design 组件库。虽然个人并不推荐在 iOS 平台上使用非 iOS 风格界面，不过，对于 Android 强迫症“患者”，多一种选择也是友好的。顺带附上 Google 提供的开源[Material Design 图标集](https://github.com/google/material-design-icons)，可以一起收入。
 * [facebook/AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)：它是由 Facebook 开发并用于其 Paper 应用的 iOS UI 框架，它主要解决问题是提供界面的高流畅性切换及更灵敏的响应，解决思路是将部分 UI 渲染及复杂计算交由独立于主线程的处理程序负责。中译教程《[AsyncDisplayKit 教程 - 达到 60 FPS 的滚动帧率](https://github.com/nixzhu/dev-blog/blob/master/2014-11-22-asyncdisplaykit-tutorial-achieving-60-fps-scrolling.md) By [@nixzhu](http://weibo.com/nixzhu)》，教程原文《[AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling](http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling)》。
 * [mutualmobile/MMWormhole](https://github.com/mutualmobile/MMWormhole)：提供了 iOS 应用与扩展之间的消息传递，其最有价值之处当属 iPhone 与  Watch 间的消息传递，从而实现相互操控的功能。
@@ -157,7 +157,7 @@ tags:
 * [Khan/Prototope](https://github.com/Khan/Prototope)：虽然看不懂这套用户交互层面的轻量级原型框架用处在哪里（哪位同学能给俺提示一下）？不过，作者将这套框架的 Swift API完整桥接为 JS 接口倒是很有意思。
 * [MHaroonBaig/MotionKit](https://github.com/MHaroonBaig/MotionKit)：为核心运动框架（The Core Motion framework）提供友好的类库封装，以更方便使用三轴陀螺仪和加速感应器特性。
 * [uber/jetstream-ios](https://github.com/uber/jetstream-ios)：一款 Uber 的 MVC 框架。它同时提供了多用户实时通讯支持，一旦启动 JetStream 后端服务，通过 WebSocket 协议可以分分钟建立多用户实时通讯应用。
-* [jessesquires/JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit)：一款轻量、易用的通知发送及响应框架类库。作者是知名开源项目 JSQMessagesViewController（objective_c 版即时聊天）的作者 Jesse Squires ，也是一位知名博主，收录过其文章『An analysis of sorts between objective_c and Swift』。
+* [jessesquires/JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit)：一款轻量、易用的通知发送及响应框架类库。作者是知名开源项目 JSQMessagesViewController（objc 版即时聊天）的作者 Jesse Squires ，也是一位知名博主，收录过其文章『An analysis of sorts between objc and Swift』。
 * [morizotter/TouchVisualizer](https://github.com/morizotter/TouchVisualizer)：实用的多点触摸可视化组件。扩展并作用于 UIWindows，结构上提供了简单地针对触摸显示定制，比如触摸点的颜色。这个组件对于需要做应用演示的同学尤其有用。
 * [FutureKit/FutureKit](https://github.com/FutureKit/FutureKit)：“是一个 100% Swift 实现的 Future/Promises 库，由 Swift Generic 带来的类型安全、由 GCD 带来的线程安全，通过 FutureKit 可以在 iOS/OS X 下灵活玩转 Future/Promises 式编程了”。推荐者：[@图拉鼎](http://weibo.com/tualatrix)
 * [SwiftBond/Bond](https://github.com/SwiftBond/Bond)：使用简单、易于理解的对象绑定框架。比如：你可以使用代码 textField ->> label 将输入框文本映射到标签中的文字属性，当文本变化时，标签文字随动变化。 真的很方便。
@@ -173,7 +173,7 @@ tags:
 * [neoneye/SwiftyFORM](https://github.com/neoneye/SwiftyFORM)：表单输入框架（亮点是表单验证规则引擎），是我见过地最易用的 Swift 表单组件。
 * [ortuman/SwiftForms](https://github.com/ortuman/SwiftForms)：这个表单递交库简单实用，支持主要数据类型及定制。快速开发利器。
 * [kentya6/KYCircularProgress](https://github.com/kentya6/KYCircularProgress)：这个进程条类库实现及使用都很简单，支持进程路径的定制，灵活方便。
-* [coolbeet/CBStoreHouseRefreshControl](https://github.com/coolbeet/CBStoreHouseRefreshControl)：这个下拉刷新库，提供完全可定制进度变换效果，且极具艺术感。建议有能力的同学把 objective_c 版本改写为Swift版本。
+* [coolbeet/CBStoreHouseRefreshControl](https://github.com/coolbeet/CBStoreHouseRefreshControl)：这个下拉刷新库，提供完全可定制进度变换效果，且极具艺术感。建议有能力的同学把 objc 版本改写为Swift版本。
 * [kevinzhow/PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift)：PNChart 的 Swift 版实现。PNChart http://t.cn/zRWXJCZ 是饼图、折线图、柱状图等常用可视化图表工具类库。开发者：[@周楷雯Kevin](http://weibo.com/kevinzhow)
 * [exchangegroup/Dodo](https://github.com/exchangegroup/Dodo)：一款轻量地可定制信息栏小组件。包含 success, info, warning 及 error 类型消息展现。提供基本的按扭及事件绑定。
 * [codestergit/SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS)：该弹窗控件设计简单直接，功能完整，动画效果恰如其分。实在不可多得，必须收录。
@@ -203,7 +203,7 @@ tags:
 * [micazeve/MAGearRefreshControl](https://github.com/micazeve/MAGearRefreshControl)：同样是下拉即刷新，看看人家花了多大的心思写[代码](https://github.com/micazeve/MAGearRefreshControl/blob/master/Classes/MAGearRefreshControl.swift)。另一位开发者也实现在类似动画效果 [andreamazz/GearRefreshControl](https://github.com/andreamazz/GearRefreshControl)，可以感受一下编程的多变性。
 * [gali8/Tesseract-OCR-iOS](https://github.com/gali8/Tesseract-OCR-iOS)：OCR 文字识别也有相应 iOS 项目。虽然是 Objective C 版，不过，提供 CocoaPods 三方库引用。与 Android 版师出同门。属于主流开源项目。
 * [Akkyie/AKPickerView-Swift](https://github.com/Akkyie/AKPickerView-Swift)：AKPickerView O网页链接：一款小而美的 3D 效果选择器。P.S. 作者分别提供了 CocoaPods 和 Carthage 两种方式的三方接口对外引用和指南，Carthage 获得越来越多主流开发者重视了。
-* [danielgindi/ios-charts](https://github.com/danielgindi/ios-charts)：一款优秀 Android 图表开源库 MPAndroidChart 的 Swift 语言实现版（支持 objective_c 和 Swift 调用）。缺省提供的示例代码为 objective_c。P.S. 当然 [@周楷雯Kevin](http://weibo.com/kevinzhow) 同学的 [PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift) 也不容错过，同学们可以各取所需比较使用。
+* [danielgindi/ios-charts](https://github.com/danielgindi/ios-charts)：一款优秀 Android 图表开源库 MPAndroidChart 的 Swift 语言实现版（支持 objc 和 Swift 调用）。缺省提供的示例代码为 objc。P.S. 当然 [@周楷雯Kevin](http://weibo.com/kevinzhow) 同学的 [PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift) 也不容错过，同学们可以各取所需比较使用。
 * [scotteg/LayerPlayer](https://github.com/scotteg/LayerPlayer)：一款全面展示核心动画 API 示例项目（[上架应用](https://itunes.apple.com/app/layer-player/id949768742)）。包括 CALayer, CAScrollLayer, CATextLayer, AVPlayerLayer, CAGradientLayer, CAReplicatorLayer, CATiledLayer, CAShapeLayer, CAEAGLLayer, CATransformLayer, CAEmitterLayer 等使用的互动演示。RayWenderlich 有针对该项目的 [撰文解读](http://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples)（[中译文](http://www.cocoachina.com/ios/20150318/11350.html) By [@TurtleFromMars](http://weibo.com/u/2708375871)），与开发者 Scott Gardner 的 [视频讨论](http://www.raywenderlich.com/90919/great-calayer-tour-tech-talk-video)。
 * [ReactiveCocoa/ReactiveAnimation](https://github.com/ReactiveCocoa/ReactiveAnimation)：“ReactiveCocoa 推出了一个叫 ReactiveAnimation 的子项目，直接用完全用 Swift 来实现了。国外开发者社区就是拽啊！ By [@图拉鼎](http://weibo.com/tualatrix)”。
 * [larcus94/BRNImagePickerSheet](https://github.com/larcus94/BRNImagePickerSheet)：图片或视频选择器（可多选）组件及其示例项目。P.S. 作者推荐低藕、非侵入式三方库依赖引用方案 Carthage，从 iOS 8 开始，越来越多开发者推荐 Carthage 做为标配了。
@@ -248,7 +248,7 @@ tags:
 
 ### <a id="examples"></a>2. 示例项目
 * [官方示例](https://developer.apple.com/wwdc/resources/sample-code/)："比起 GitHub 上的开源项目来说，官方的代码我觉得是更有参考价值的，比如 Session 406 的代码，Lister，就用一个 Swift 实现的包含 OSX 和 iOS 的" By [@晨钰Lancy](http://weibo.com/lancy1014)
-* [官方示例 － Lister](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html)：“Lister 这个官方 demo 也跑起来了。Apple 还是很用心的，不仅做了 iOS、Mac 和 Apple Watch 版本，并且为这个 demo 分别用 objective_c 和 Swift 实现了一遍，最后还配了整整 30 页的文档！By [@图拉鼎](http://weibo.com/tualatrix)”。官方示例一份顶十份，学走路从官方文档及示例开始。
+* [官方示例 － Lister](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html)：“Lister 这个官方 demo 也跑起来了。Apple 还是很用心的，不仅做了 iOS、Mac 和 Apple Watch 版本，并且为这个 demo 分别用 objc 和 Swift 实现了一遍，最后还配了整整 30 页的文档！By [@图拉鼎](http://weibo.com/tualatrix)”。官方示例一份顶十份，学走路从官方文档及示例开始。
 * [tsunghao/learn-swift](https://github.com/tsunghao/learn-swift)：该项目是 [nettlep/learn-swift](https://github.com/nettlep/learn-swift) 项目的（正体）中译版。最难能可贵的是原项目最后更新是 6 个多月前了。而中译项目已经更新至 Xcode 6.2(6C131e) ，且下一版（Swift 1.2）正式发布后，作者还会继续更新。
 * [VirtualGS教程示例](https://github.com/ipader/SwiftGuide/tree/master/VirtualGS)：以下示例程序来源于林泰前老师[微博](http://weibo.com/limtc)或[博客](http://blog.sina.com.cn/virtualgs)发布，为方便大家学习 Swift 编程，有幸获得林老师的准许在这里发布。
 * [Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift)："实在忍不了 Swift 的数字计算时候的好麻烦的强制转换了，重载了一下加减乘除之类的操作符，这样就不用显式地转换类型了...（对于像我这样现在连补全都没有的孩子来说，能省好多时间啊- -）" By [@onevcat](http://weibo.com/onevcat)
@@ -277,7 +277,7 @@ tags:
 * [441088327/SYKeyboardTextField](https://github.com/441088327/SYKeyboardTextField)：“开源一个我自己写的键盘附随输入框，为Swift做些贡献”。 作者：[@余书懿](http://weibo.com/ysy441088327)
 * [dasdom/BreakOutToRefresh](https://github.com/dasdom/BreakOutToRefresh)：下拉加载刷新时，嵌入了用 SpriteKit 框架写的有趣的小游戏播放页。P.S. 此例中作者嵌入的或许并没有让你耳目一新，甚至感到有点牵强，不过，若嵌入更合适的呢？
 * [eleks/rnd-apple-watch-tesla](https://github.com/eleks/rnd-apple-watch-tesla)：Apple Watch 操作 Tesla 汽车。可惜是 Objective C 版本的，否则，Swift 同学又是一次很好的学习机会。
-* [kenshin03/Cherry](https://github.com/kenshin03/Cherry)：定时器应用，功能包括在手表上新建活动，启动/停止活动，持久化活动数据在 iPhone，在 Glances 中查看活动状态并可直接切换至该应用。P.S. 该应用由作者之前开发的 objective_c 项目采用 Swift 重写后获得。
+* [kenshin03/Cherry](https://github.com/kenshin03/Cherry)：定时器应用，功能包括在手表上新建活动，启动/停止活动，持久化活动数据在 iPhone，在 Glances 中查看活动状态并可直接切换至该应用。P.S. 该应用由作者之前开发的 objc 项目采用 Swift 重写后获得。
 * [slazyk/SINQ](https://github.com/slazyk/SINQ)：该项目把来自 C#和VB 的 LINQ 集成查询功能吸收了进来。是不是又一次证明了 Swift 吸纳各语言精华的能力很强大，是不是又一次向"大一统"的编程/编译环境迈进了一步？
 * [MengTo/DesignerNewsApp](https://github.com/MengTo/DesignerNewsApp)：一款针对 Designer News 网站的完整 iOS 应用，最具特色地是开发者对动画技术得心应手的应用。P.S. 该开发者发布过一套非常完整、实用的优秀动画封装库及演示工具 [Spring](http://weibo.com/5167456916/C2l95BHar)。
 * [MoZhouqi/VoiceMemos](https://github.com/MoZhouqi/VoiceMemos)：“语音笔记本应用。用到了一些 iOS 8 新技术，比如 UISplitViewController、UISearchController、UIAlertController、自定义 Presentations、可视化开发，还有一些语音相关的用法。界面开发的新技术介绍可以参考 [@onevcat](http//weibo.com/onevcat) 的 [这个帖子](http://onevcat.com/2014/07/ios-ui-unique/)”。
@@ -289,7 +289,7 @@ tags:
 * [FlexMonkey/MetalParticles](https://github.com/FlexMonkey/MetalParticles)：超强计算、极致渲染，发挥 GPU 最高效能 Metal 框架演示项目。P.S. Metal 框架是并驾于 OpenGL ES 的底层图形计算接口。相比于 OpenGL，它甚至更底层、更接近 GPU。它是需求超强计算及渲染性能要求的游
 戏平台不二之选。
 * [Mav3r1ck/Project-RainMan](https://github.com/Mav3r1ck/Project-RainMan)：一款很酷的天气预报应用。Forcast.io 提供的天气预报 API 很赞。
-* [kongtomorrow/WatchTransition](https://github.com/kongtomorrow/WatchTransition)：模拟 Apple Watch 上的动画过渡效果。objective_c 和 Swift 混搭开发学习参考。
+* [kongtomorrow/WatchTransition](https://github.com/kongtomorrow/WatchTransition)：模拟 Apple Watch 上的动画过渡效果。objc 和 Swift 混搭开发学习参考。
 * [jessesquires/JSQWebViewControlle](https://github.com/jessesquires/JSQWebViewController)：一款轻量的 WebKit 浏览器视图控制封装库（使用 WKWebView）。
 * [radex/DiffyTables](https://github.com/radex/DiffyTables)：提供在 WatchKit 应用中有效使用表格的实例。完整实现思路作者已经撰写长文 [Practical and efficient WatchKit tables with view model diffing](http://radex.io/watch/diffing/)。充分理解该文章作者推荐阅读 [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)
 * WWDC 2015 watchOS应用示例：1. [Lister](https://developer.apple.com/library/prerelease/watchos/samplecode/Lister/Introduction/Intro.html)(大家比较熟了); 2. [PotLoc](https://developer.apple.com/library/prerelease/watchos/samplecode/PotLoc/Introduction/Intro.html)：使用 CoreLocation 定位；3.[WatchKitMoviePlayer](https://developer.apple.com/library/prerelease/watchos/samplecode/WatchKitMoviePlayer/Introduction/Intro.html): 使用 WKInterfaceMovie播放视频。
@@ -309,10 +309,10 @@ tags:
 * [mozilla/firefox-ios](https://github.com/mozilla/firefox-ios)：Swift 写的 iOS 版 Firefox。P.S. 第三方库用到了 Alamofire, Snappy, swift-json 等，内置阅读器还使用了 Readability。
 * [lexrus/VPNOn](https://github.com/lexrus/VPNOn)：一款驻在通知中心内的基于 Today 扩展的 VPN 开关应用。
 * [victor/whereami](https://github.com/victor/whereami)：一款用 Swift 语言写的通过命令行获得当前设备地理位置程序。虽然很简单，不过，实用性及学习性俱佳。
-* [Ahmed-Ali/RealmObjectEditor](https://github.com/Ahmed-Ali/RealmObjectEditor)：Realm 数据库 Swift 版开源编辑器。提供针对实体，属性及关系的编辑功能，完成后可以将实体结构导出为 Swift, objective_c 或 Java 类模型。非常实用。
+* [Ahmed-Ali/RealmObjectEditor](https://github.com/Ahmed-Ali/RealmObjectEditor)：Realm 数据库 Swift 版开源编辑器。提供针对实体，属性及关系的编辑功能，完成后可以将实体结构导出为 Swift, objc 或 Java 类模型。非常实用。
 * [jpsim/DeckRocket](https://github.com/jpsim/DeckRocket)：在相同 WiFi 网络环境内，通过 iPhone 控制并播放 Mac 中的 PDF 文档。ft 编译器崩溃的测试用例。这是一个疯狂又非常有意义的开源项目。可以定期关注一下。P.S. 该开源项目作者最新提示：Xcode 6.3 beta 与 Swift 1.2 已修复了其已发现编译器崩溃级缺陷的 83%。
 * [Carthage/Carthage](https://github.com/Carthage/Carthage)：更简单的方式来管理 Cocoa 第三方框架。有了 CocoaPods 为何还要使用 Carthage，作者在 README.md（[中译](http://www.cocoachina.com/ios/20141204/10528.html)） 已经做了充分说明。
-* [artsy/eidolon](https://github.com/artsy/eidolon)：艺术品拍卖的投标亭平台。作者提供了一个[很励志的开发故事](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/)：从商业创意到最终实现。心路历程从不开源到开源，从 objective_c 到 Swift（去年夏天的事，现在当然是 Swift），以及选择时髦的反应式编程框架 ReactiveCocoa……
+* [artsy/eidolon](https://github.com/artsy/eidolon)：艺术品拍卖的投标亭平台。作者提供了一个[很励志的开发故事](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/)：从商业创意到最终实现。心路历程从不开源到开源，从 objc 到 Swift（去年夏天的事，现在当然是 Swift），以及选择时髦的反应式编程框架 ReactiveCocoa……
 * [mortenjust/androidtool-mac](https://github.com/mortenjust/androidtool-mac)：“一款用 Swift 写的可在 Mac 上使用的 Android 工具, 支持一键截屏, 视频录制, APK 安装等功能”。
 * [lexrus/JSCoreDemo](https://github.com/lexrus/JSCoreDemo)：“演示了一下怎样在 Swift 里用 JavaScriptCore 把原生功能桥接给 JS 用，代码少很容易理解”。简单、易懂的基础演示代码。P.S. 希望进阶学习的同学，这里有一个完整项目供参考 [RichEditorView](https://github.com/cjwirth/RichEditorView)：基于 HTML 5 的可定制富文本编辑器组件及示例。
 * [gilesvangruisen/Swift-YouTube-Player](https://github.com/gilesvangruisen/Swift-YouTube-Player)：用不了的同学就当学习吧。或参考并试着写个 Swift-(...)-Player。
@@ -368,7 +368,7 @@ tags:
 
 
 ### 7. 示例项目
-* [ViewSource(Swift+objective_c)](https://github.com/dominic/ViewSource)：通过 iOS 8 Extension 实现让 Web 工程师喜欢的"显示网页源代码"。
+* [ViewSource(Swift+objc)](https://github.com/dominic/ViewSource)：通过 iOS 8 Extension 实现让 Web 工程师喜欢的"显示网页源代码"。
 * [indragiek/Unzip](https://github.com/indragiek/Unzip)：浏览ZIP文件的 iOS 8 Action 扩展。
 
 ### 8. 实用资源

@@ -6,7 +6,7 @@ author:     "Chen"
 header-img: "img/bookNotes/ARC.jpg"
 tags:
     - Quartz2D
-    - objective_c
+    - objc
     - 读书笔记
 ---
 
