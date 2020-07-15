@@ -198,5 +198,5 @@ code
 ```lua
 local exData = text:getComponent("ComExtensionData")
 local data = exData:getCustomProperty();
-// data 就是 999999
+-- data 就是 999999
 ```
