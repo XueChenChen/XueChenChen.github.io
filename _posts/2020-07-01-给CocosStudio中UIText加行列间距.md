@@ -12,7 +12,7 @@ tags:
 ---
 
 1. 本身UIText也是靠CCLabel来渲染的
-``` cpp
+```cpp
 	void Text::initRenderer()
 {
     _labelRenderer = Label::create();
@@ -20,7 +20,7 @@ tags:
 }
 ```
 2. CCLabel 有设置列间距行间距的方法
-```
+```cpp
 	// 行间距
 	void setLineSpacing(float height);
 
@@ -35,8 +35,9 @@ tags:
 ```
 
 3. 在 C++ 里 添加 行间距 列间距 方法 然后暴露给lua
+
 - UIText中添加方法
-```
+```cpp
 // UIText.h 中
 
 	//设置行间距
@@ -69,7 +70,7 @@ tags:
 
 **文件路径** `cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp` <br>
 **方法** `lua_register_cocos2dx_ui_Text`
-```
+```cpp
 // 行间距
 int lua_cocos2dx_ui_Text_setLineSpacing(lua_State* tolua_S)
 {
@@ -191,7 +192,7 @@ csd 内容
 ![IMG](/img/cocos/CocosStudio_userData2.jpg)
 
 code
-```
+```lua
 local exData = text:getComponent("ComExtensionData")
 local data = exData:getCustomProperty();
 // data 就是 999999
