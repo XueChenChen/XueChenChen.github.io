@@ -36,7 +36,9 @@ tags:
 
 3. 在 C++ 里 添加 行间距 列间距 方法 然后暴露给lua
 
+
 - UIText中添加方法
+
 ```cpp
 // UIText.h 中
 
@@ -70,6 +72,7 @@ tags:
 
 **文件路径** `cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp` <br>
 **方法** `lua_register_cocos2dx_ui_Text`
+
 ```cpp
 // 行间距
 int lua_cocos2dx_ui_Text_setLineSpacing(lua_State* tolua_S)
